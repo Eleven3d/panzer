@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PanzerDragoon.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B11DF497-1FD4-4207-920F-78A1865B94E3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PanzerDragon.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PanzerDragonEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{33E84F53-136B-48B3-A50C-E1756AF06A8C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PanzerDragon">
+			<UniqueIdentifier>{3E5CAA50-14BF-4CB1-8A23-EBE8FD72B709}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PanzerDragon\PanzerDragon.Build.cs">
+			<Filter>Source\PanzerDragon</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PanzerDragon\PanzerDragon.cpp">
+			<Filter>Source\PanzerDragon</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PanzerDragon\PanzerDragon.h">
+			<Filter>Source\PanzerDragon</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PanzerDragon\PanzerDragonGameModeBase.cpp">
+			<Filter>Source\PanzerDragon</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PanzerDragon\PanzerDragonGameModeBase.h">
+			<Filter>Source\PanzerDragon</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
