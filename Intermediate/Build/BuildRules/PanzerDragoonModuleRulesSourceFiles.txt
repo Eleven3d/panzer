@@ -1,3 +1,0 @@
-D:\PW_Ivo\PanzerDragon\PanzerDragon\Source\PanzerDragon\PanzerDragon.Build.cs
-D:\PW_Ivo\PanzerDragon\PanzerDragon\Source\PanzerDragon.Target.cs
-D:\PW_Ivo\PanzerDragon\PanzerDragon\Source\PanzerDragonEditor.Target.cs
