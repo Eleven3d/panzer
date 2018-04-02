@@ -3,12 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/SceneComponent.h"
+#include "Components/ArrowComponent.h"
 #include "PDArrowComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class PANZERDRAGON_API UPDArrowComponent : public USceneComponent
+UCLASS( Blueprintable )
+class PANZERDRAGON_API UPDArrowComponent : public UArrowComponent
 {
 	GENERATED_BODY()
 
