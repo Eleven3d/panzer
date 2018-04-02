@@ -79,3 +79,5 @@ PanzerDragoon.sln
 /Intermediate/Build/BuildRules/PanzerDragoonModuleRulesSourceFiles.txt
 /Intermediate/CachedAssetRegistry.bin
 /Intermediate/ProjectFiles/PanzerDragoon.vcxproj.filters
+Intermediate/ReimportCache/
+Intermediate/AssetRegistryCache/7f0dba8b.bin
