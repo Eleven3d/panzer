@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PanzerDragon.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{7C453400-B1A1-4343-9E68-2AD27558B128}</UniqueIdentifier>
+			<UniqueIdentifier>{249F9C7A-A47E-4022-BC5D-978C6744FA5F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PanzerDragon.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A19D451A-6D91-4D26-A60C-9402BA2BD26F}</UniqueIdentifier>
+			<UniqueIdentifier>{810DA306-FA66-4DF8-84AA-BA1A39138A93}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PanzerDragon">
-			<UniqueIdentifier>{DEFD844A-5A88-4E93-B25A-A49780817020}</UniqueIdentifier>
+			<UniqueIdentifier>{2EEA5B99-3D32-4CA1-9DA4-89AFE8699297}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PanzerDragon\PanzerDragon.Build.cs">
 			<Filter>Source\PanzerDragon</Filter>
@@ -41,6 +41,15 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\PanzerDragon\PanzerDragonGameModeBase.h">
 			<Filter>Source\PanzerDragon</Filter>
+		</ClInclude >
+		<Filter Include="Source\PanzerDragon\CustomComponents">
+			<UniqueIdentifier>{BDF7EDA3-60CB-43EC-8E2C-6CB3183EE3D6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PanzerDragon\CustomComponents\PDArrowComponent.cpp">
+			<Filter>Source\PanzerDragon\CustomComponents</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PanzerDragon\CustomComponents\PDArrowComponent.h">
+			<Filter>Source\PanzerDragon\CustomComponents</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
