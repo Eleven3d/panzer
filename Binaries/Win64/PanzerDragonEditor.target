@@ -5923,7 +5923,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/PanzerDragoon.uproject",
+			"Path": "$(ProjectDir)/PanzerDragon.uproject",
 			"Type": "UFS"
 		},
 		{

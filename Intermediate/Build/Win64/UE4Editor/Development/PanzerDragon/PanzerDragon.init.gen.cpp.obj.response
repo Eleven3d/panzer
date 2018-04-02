@@ -23,9 +23,11 @@
 /wd4838
 /w44668
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source"
-/I D:\PW_Ivo\PanzerDragon\PanzerDragon\Source
-/I D:\PW_Ivo\PanzerDragon\PanzerDragon\Intermediate\Build\Win64\UE4Editor\Inc\PanzerDragon
-/I D:\PW_Ivo\PanzerDragon\PanzerDragon\Source\PanzerDragon
+/I D:\PW_Ivo\Panzer\panzer\Source
+/I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon\Public
+/I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon\Public\CustomComponents
+/I D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Inc\PanzerDragon
+/I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -363,9 +365,9 @@
 /FI"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\PW_Ivo\PanzerDragon\PanzerDragon\Intermediate\Build\Win64\UE4Editor\Inc\PanzerDragon\PanzerDragon.init.gen.cpp"
-/FI"D:\PW_Ivo\PanzerDragon\PanzerDragon\Intermediate\Build\Win64\UE4Editor\Development\PanzerDragon\Definitions.PanzerDragon.h"
-/Fo"D:\PW_Ivo\PanzerDragon\PanzerDragon\Intermediate\Build\Win64\UE4Editor\Development\PanzerDragon\PanzerDragon.init.gen.cpp.obj"
+"D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Inc\PanzerDragon\PanzerDragon.init.gen.cpp"
+/FI"D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\PanzerDragon\Definitions.PanzerDragon.h"
+/Fo"D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\PanzerDragon\PanzerDragon.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
