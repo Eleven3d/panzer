@@ -26,6 +26,7 @@
 /I D:\PW_Ivo\Panzer\panzer\Source
 /I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon\Public
 /I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon\Public\CustomComponents
+/I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon\Public\FunctionLibraries
 /I D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Inc\PanzerDragon
 /I D:\PW_Ivo\Panzer\panzer\Source\PanzerDragon
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
