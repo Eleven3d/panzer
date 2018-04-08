@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePanzerDragon_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/PanzerDragon",
 				PKG_CompiledIn | 0x00000000,
-				0x1A3EA9B3,
-				0xCB97D53D,
+				0xAE6A24FA,
+				0x9F9374AA,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

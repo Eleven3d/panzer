@@ -1,4 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Parsing headers for PanzerDragonEditor
+    Running UnrealHeaderTool "D:\PW_Ivo\Panzer\panzer\PanzerDragon.uproject" "D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\PanzerDragonEditor\Development\PanzerDragonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PanzerDragonEditor in 6.9139504 seconds
+  Performing 5 actions (12 in parallel)
+  BDUtilityLibrary.cpp
+  BDUtilityLibrary.gen.cpp
+  PanzerDragon.init.gen.cpp
+  [4/5] Link UE4Editor-PanzerDragon.dll
+  [5/5] Link UE4Editor-PanzerDragon.lib
+     Creating library D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.suppressed.lib and object D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.suppressed.exp
+     Creating library D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.lib and object D:\PW_Ivo\Panzer\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.exp
   Deploying PanzerDragonEditor Win64 Development...
-  Total build time: 0.53 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 10.42 seconds (Local executor: 2.82 seconds)
