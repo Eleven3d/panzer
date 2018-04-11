@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PanzerDragon.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{BA927AF0-33E4-4D48-BBE2-D6A9E3FCB015}</UniqueIdentifier>
+			<UniqueIdentifier>{BE145F88-7597-4FD5-B3C7-CF32E23FCBD9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PanzerDragon.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{625382CD-ABED-4942-B6F9-07960AC178E5}</UniqueIdentifier>
+			<UniqueIdentifier>{D402EF03-1203-4F5D-AE67-A59701A2DFAA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PanzerDragon">
-			<UniqueIdentifier>{00D808F2-1CE9-4681-9495-D039FA0593F6}</UniqueIdentifier>
+			<UniqueIdentifier>{86728333-5201-4692-8789-49E3A8DC75BD}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PanzerDragon\PanzerDragon.Build.cs">
 			<Filter>Source\PanzerDragon</Filter>
@@ -43,7 +43,7 @@
 			<Filter>Source\PanzerDragon</Filter>
 		</ClInclude >
 		<Filter Include="Source\PanzerDragon\CustomComponents">
-			<UniqueIdentifier>{8AB74C48-B88C-48A5-8AFC-E35C5AD687C8}</UniqueIdentifier>
+			<UniqueIdentifier>{D593DFB7-4551-418C-B267-34C710710647}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PanzerDragon\CustomComponents\PDArrowComponent.cpp">
 			<Filter>Source\PanzerDragon\CustomComponents</Filter>
@@ -52,13 +52,13 @@
 			<Filter>Source\PanzerDragon\CustomComponents</Filter>
 		</ClInclude >
 		<Filter Include="Source\PanzerDragon\Private">
-			<UniqueIdentifier>{1F52519D-2E77-4BE9-9BD8-4A7F34172A8A}</UniqueIdentifier>
+			<UniqueIdentifier>{C59BFC47-7648-43F2-BEBA-9D40116FA057}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PanzerDragon\Private\BDUtilityLibrary.cpp">
 			<Filter>Source\PanzerDragon\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\PanzerDragon\Public">
-			<UniqueIdentifier>{23A6197D-0A6C-4883-8C54-62287FB33E91}</UniqueIdentifier>
+			<UniqueIdentifier>{5EA51993-0D06-459B-8A57-F007AB98E01F}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\PanzerDragon\Public\BDUtilityLibrary.h">
 			<Filter>Source\PanzerDragon\Public</Filter>
