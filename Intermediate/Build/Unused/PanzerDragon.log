@@ -1,9 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing 3 actions (4 in parallel)
-  BDUtilityLibrary.cpp
-  [2/3] Link UE4Editor-PanzerDragon.dll
-  [3/3] Link UE4Editor-PanzerDragon.lib
-     Creating library C:\Users\Jade\Documents\GitHub\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.lib and object C:\Users\Jade\Documents\GitHub\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.exp
-     Creating library C:\Users\Jade\Documents\GitHub\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.suppressed.lib and object C:\Users\Jade\Documents\GitHub\panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon.suppressed.exp
+  Creating makefile for PanzerDragonEditor (ini files are newer than UBTMakefile)
+  Target is up to date
   Deploying PanzerDragonEditor Win64 Development...
-  Total build time: 2.10 seconds (Local executor: 1.01 seconds)
+  Total build time: 6.11 seconds (NoActionsToExecute executor: 0.01 seconds)
