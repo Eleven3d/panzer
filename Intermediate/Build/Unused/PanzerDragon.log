@@ -1,4 +1,2 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
-  Deploying PanzerDragonEditor Win64 Development...
-  Total build time: 1.10 seconds (NoActionsToExecute executor: 0.00 seconds)
+﻿  The system cannot find the path specified.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" PanzerDragonEditor Win64 Development "D:\PW_Ivo\Panzer\panzer\PanzerDragon.uproject" -WaitMutex -FromMsBuild" exited with code 3.
