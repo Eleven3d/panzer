@@ -19,4 +19,9 @@ class PANZERDRAGON_API UBDUtilityLibrary : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Math|Primitives")
 	static UPrimitiveComponent* GetNearestPrimitive(TArray<UPrimitiveComponent*> Primitives, UPrimitiveComponent* TargetPrimitive);
 
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Math|SceneComponents")
+	static FVector GetAverageWorldLocation(TArray<USceneComponent*> Scenecomponents);
+
+
+
 };

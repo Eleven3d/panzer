@@ -1,2 +1,16 @@
-﻿  The system cannot find the path specified.
-D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" PanzerDragonEditor Win64 Development "D:\PW_Ivo\Panzer\panzer\PanzerDragon.uproject" -WaitMutex -FromMsBuild" exited with code 3.
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading PanzerDragonEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Parsing headers for PanzerDragonEditor
+    Running UnrealHeaderTool "D:\Projects\Panzer\PanzerDragon.uproject" "D:\Projects\Panzer\Intermediate\Build\Win64\PanzerDragonEditor\Development\PanzerDragonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PanzerDragonEditor in 14.6378059 seconds
+  Performing 5 actions (4 in parallel)
+  BDUtilityLibrary.cpp
+  PanzerDragon.init.gen.cpp
+  BDUtilityLibrary.gen.cpp
+  [4/5] Link UE4Editor-PanzerDragon-8345.dll
+  [5/5] Link UE4Editor-PanzerDragon-8345.lib
+     Creating library D:\Projects\Panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon-8345.lib and object D:\Projects\Panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon-8345.exp
+     Creating library D:\Projects\Panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon-8345.suppressed.lib and object D:\Projects\Panzer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PanzerDragon-8345.suppressed.exp
+  Deploying PanzerDragonEditor Win64 Development...
+  Total build time: 26.11 seconds (Local executor: 2.03 seconds)

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PANZERDRAGON_PanzerDragonGameModeBase_generated_h
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPanzerDragonGameModeBase(); \
 	friend PANZERDRAGON_API class UClass* Z_Construct_UClass_APanzerDragonGameModeBase(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAPanzerDragonGameModeBase(); \
 	friend PANZERDRAGON_API class UClass* Z_Construct_UClass_APanzerDragonGameModeBase(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APanzerDragonGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APanzerDragonGameModeBase) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APanzerDragonGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,32 +61,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APanzerDragonGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APanzerDragonGameModeBase)
 
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_12_PROLOG
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_12_PROLOG
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_GENERATED_BODY \
+#define Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h
+#define CURRENT_FILE_ID Panzer_Source_PanzerDragon_PanzerDragonGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

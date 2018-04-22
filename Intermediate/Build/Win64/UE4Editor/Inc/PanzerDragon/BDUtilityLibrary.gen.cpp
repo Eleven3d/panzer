@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeBDUtilityLibrary() {}
 	PANZERDRAGON_API UClass* Z_Construct_UClass_UBDUtilityLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_PanzerDragon();
+	PANZERDRAGON_API UFunction* Z_Construct_UFunction_UBDUtilityLibrary_GetAverageWorldLocation();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	PANZERDRAGON_API UFunction* Z_Construct_UFunction_UBDUtilityLibrary_GetDistanceBetweenPrimitives();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	PANZERDRAGON_API UFunction* Z_Construct_UFunction_UBDUtilityLibrary_GetNearestPrimitive();
@@ -25,10 +28,45 @@ void EmptyLinkFunctionForGeneratedCodeBDUtilityLibrary() {}
 	{
 		UClass* Class = UBDUtilityLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetAverageWorldLocation", &UBDUtilityLibrary::execGetAverageWorldLocation },
 			{ "GetDistanceBetweenPrimitives", &UBDUtilityLibrary::execGetDistanceBetweenPrimitives },
 			{ "GetNearestPrimitive", &UBDUtilityLibrary::execGetNearestPrimitive },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_UBDUtilityLibrary_GetAverageWorldLocation()
+	{
+		struct BDUtilityLibrary_eventGetAverageWorldLocation_Parms
+		{
+			TArray<USceneComponent*> Scenecomponents;
+			FVector ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, STRUCT_OFFSET(BDUtilityLibrary_eventGetAverageWorldLocation_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scenecomponents_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Scenecomponents = { UE4CodeGen_Private::EPropertyClass::Array, "Scenecomponents", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010008000000080, 1, nullptr, STRUCT_OFFSET(BDUtilityLibrary_eventGetAverageWorldLocation_Parms, Scenecomponents), METADATA_PARAMS(NewProp_Scenecomponents_MetaData, ARRAY_COUNT(NewProp_Scenecomponents_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scenecomponents_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "Scenecomponents", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000080000, 1, nullptr, 0, Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Scenecomponents,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Scenecomponents_Inner,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Math|SceneComponents" },
+				{ "ModuleRelativePath", "Public/BDUtilityLibrary.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UBDUtilityLibrary, "GetAverageWorldLocation", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14842401, sizeof(BDUtilityLibrary_eventGetAverageWorldLocation_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_UBDUtilityLibrary_GetDistanceBetweenPrimitives()
 	{
@@ -131,6 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeBDUtilityLibrary() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_PanzerDragon,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_UBDUtilityLibrary_GetAverageWorldLocation, "GetAverageWorldLocation" }, // 3639115817
 				{ &Z_Construct_UFunction_UBDUtilityLibrary_GetDistanceBetweenPrimitives, "GetDistanceBetweenPrimitives" }, // 2081597560
 				{ &Z_Construct_UFunction_UBDUtilityLibrary_GetNearestPrimitive, "GetNearestPrimitive" }, // 290535025
 			};
@@ -158,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeBDUtilityLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBDUtilityLibrary, 259108527);
+	IMPLEMENT_CLASS(UBDUtilityLibrary, 3277648480);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBDUtilityLibrary(Z_Construct_UClass_UBDUtilityLibrary, &UBDUtilityLibrary::StaticClass, TEXT("/Script/PanzerDragon"), TEXT("UBDUtilityLibrary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBDUtilityLibrary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,14 +1,10 @@
 
 #include "BDUtilityLibrary.h"
 
-/**
-Implementation
-*/
 float UBDUtilityLibrary::GetDistanceBetweenPrimitives(UPrimitiveComponent* ThisPrimitive, UPrimitiveComponent* OtherPrimitive)
 {
 	return ThisPrimitive ? (ThisPrimitive->GetComponentLocation() - OtherPrimitive->GetComponentLocation()).Size() : 0.f;
 }
-
 
 UPrimitiveComponent* UBDUtilityLibrary::GetNearestPrimitive(TArray<UPrimitiveComponent*> Primitives, UPrimitiveComponent* TargetPrimitive)
 {
@@ -29,4 +25,15 @@ UPrimitiveComponent* UBDUtilityLibrary::GetNearestPrimitive(TArray<UPrimitiveCom
 
 	return p;
 
+}
+
+FVector UBDUtilityLibrary::GetAverageWorldLocation(TArray<USceneComponent*> Scenecomponents)
+{
+	FVector AdditiveLocation = FVector();
+	for (int16 i = 0; i < Scenecomponents.Num(); i++)
+	{
+		AdditiveLocation += Scenecomponents[i]->GetComponentLocation();
+	}
+	
+	return AdditiveLocation/Scenecomponents.Num();
 }

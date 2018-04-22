@@ -8,13 +8,24 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USceneComponent;
+struct FVector;
 class UPrimitiveComponent;
 #ifdef PANZERDRAGON_BDUtilityLibrary_generated_h
 #error "BDUtilityLibrary.generated.h already included, missing '#pragma once' in BDUtilityLibrary.h"
 #endif
 #define PANZERDRAGON_BDUtilityLibrary_generated_h
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAverageWorldLocation) \
+	{ \
+		P_GET_TARRAY(USceneComponent*,Z_Param_Scenecomponents); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=UBDUtilityLibrary::GetAverageWorldLocation(Z_Param_Scenecomponents); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetNearestPrimitive) \
 	{ \
@@ -37,7 +48,16 @@ class UPrimitiveComponent;
 	}
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAverageWorldLocation) \
+	{ \
+		P_GET_TARRAY(USceneComponent*,Z_Param_Scenecomponents); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=UBDUtilityLibrary::GetAverageWorldLocation(Z_Param_Scenecomponents); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetNearestPrimitive) \
 	{ \
@@ -60,7 +80,7 @@ class UPrimitiveComponent;
 	}
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS_NO_PURE_DECLS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBDUtilityLibrary(); \
 	friend PANZERDRAGON_API class UClass* Z_Construct_UClass_UBDUtilityLibrary(); \
@@ -70,7 +90,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUBDUtilityLibrary(); \
 	friend PANZERDRAGON_API class UClass* Z_Construct_UClass_UBDUtilityLibrary(); \
@@ -80,7 +100,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_STANDARD_CONSTRUCTORS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBDUtilityLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBDUtilityLibrary) \
@@ -93,7 +113,7 @@ private: \
 public:
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_ENHANCED_CONSTRUCTORS \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBDUtilityLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -106,32 +126,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBDUtilityLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBDUtilityLibrary)
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_10_PROLOG
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_GENERATED_BODY_LEGACY \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_10_PROLOG
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_STANDARD_CONSTRUCTORS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_GENERATED_BODY \
+#define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS_NO_PURE_DECLS \
-	panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_ENHANCED_CONSTRUCTORS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_PRIVATE_PROPERTY_OFFSET \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_INCLASS_NO_PURE_DECLS \
+	Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h
+#define CURRENT_FILE_ID Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
