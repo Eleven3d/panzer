@@ -8,8 +8,8 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class USceneComponent;
 struct FVector;
+class USceneComponent;
 class UPrimitiveComponent;
 #ifdef PANZERDRAGON_BDUtilityLibrary_generated_h
 #error "BDUtilityLibrary.generated.h already included, missing '#pragma once' in BDUtilityLibrary.h"
@@ -17,6 +17,26 @@ class UPrimitiveComponent;
 #define PANZERDRAGON_BDUtilityLibrary_generated_h
 
 #define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execInvertFloat) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_FloatToInvert); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=UBDUtilityLibrary::InvertFloat(Z_Param_FloatToInvert); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClampVector) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_VectorToClamp); \
+		P_GET_STRUCT(FVector,Z_Param_Min); \
+		P_GET_STRUCT(FVector,Z_Param_Max); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=UBDUtilityLibrary::ClampVector(Z_Param_VectorToClamp,Z_Param_Min,Z_Param_Max); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetAverageWorldLocation) \
 	{ \
@@ -49,6 +69,26 @@ class UPrimitiveComponent;
 
 
 #define Panzer_Source_PanzerDragon_Public_BDUtilityLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInvertFloat) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_FloatToInvert); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=UBDUtilityLibrary::InvertFloat(Z_Param_FloatToInvert); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClampVector) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_VectorToClamp); \
+		P_GET_STRUCT(FVector,Z_Param_Min); \
+		P_GET_STRUCT(FVector,Z_Param_Max); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=UBDUtilityLibrary::ClampVector(Z_Param_VectorToClamp,Z_Param_Min,Z_Param_Max); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetAverageWorldLocation) \
 	{ \

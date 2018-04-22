@@ -37,3 +37,13 @@ FVector UBDUtilityLibrary::GetAverageWorldLocation(TArray<USceneComponent*> Scen
 	
 	return AdditiveLocation/Scenecomponents.Num();
 }
+
+FVector UBDUtilityLibrary::ClampVector(FVector VectorToClamp, FVector Min, FVector Max)
+{
+	return FVector( FMath::Clamp(VectorToClamp.X,Min.X ,Max.X), FMath::Clamp(VectorToClamp.Y, Min.Y, Max.Y), FMath::Clamp(VectorToClamp.Z, Min.Z, Max.Z));
+}
+
+float UBDUtilityLibrary::InvertFloat(float FloatToInvert)
+{
+	return FloatToInvert * -1.f;
+}
